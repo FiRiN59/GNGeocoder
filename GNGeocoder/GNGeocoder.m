@@ -8,7 +8,7 @@
 
 #import "GNGeocoder.h"
 
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 #import <CWLSynthesizeSingleton.h>
 
 @interface GNGeocoder ()
