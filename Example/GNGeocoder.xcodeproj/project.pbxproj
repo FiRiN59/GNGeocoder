@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DA2868CF954051C66C93DA7 /* libPods-GNGeocoderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23364841048060B9D7582EE4 /* libPods-GNGeocoderTests.a */; };
-		36671FD805861B707AFFC4D2 /* libPods-GNGeocoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5742655FD4F93D9B6AF2F5 /* libPods-GNGeocoder.a */; };
+		046FB4E2AE18D1650904ABFD /* Pods_GNGeocoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A661816658209C5B6DA13265 /* Pods_GNGeocoder.framework */; };
+		A01AB42F11856AE9EAB9EFB3 /* Pods_GNGeocoderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2C51A74FA01BF4CEC27925 /* Pods_GNGeocoderTests.framework */; };
 		EE021E391AA9A55C00338D45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE021E381AA9A55C00338D45 /* main.m */; };
 		EE021E3C1AA9A55C00338D45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE021E3B1AA9A55C00338D45 /* AppDelegate.m */; };
 		EE021E3F1AA9A55C00338D45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE021E3E1AA9A55C00338D45 /* ViewController.m */; };
@@ -35,8 +35,8 @@
 
 /* Begin PBXFileReference section */
 		01AA35C23AFA686F94114899 /* Pods-GNGeocoderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNGeocoderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GNGeocoderTests/Pods-GNGeocoderTests.debug.xcconfig"; sourceTree = "<group>"; };
-		23364841048060B9D7582EE4 /* libPods-GNGeocoderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GNGeocoderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA5742655FD4F93D9B6AF2F5 /* libPods-GNGeocoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GNGeocoder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2C51A74FA01BF4CEC27925 /* Pods_GNGeocoderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNGeocoderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A661816658209C5B6DA13265 /* Pods_GNGeocoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNGeocoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF134EB399010DABAEA779EF /* Pods-GNGeocoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNGeocoder.release.xcconfig"; path = "Pods/Target Support Files/Pods-GNGeocoder/Pods-GNGeocoder.release.xcconfig"; sourceTree = "<group>"; };
 		ED72D3DDC658389A80D5968B /* Pods-GNGeocoderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNGeocoderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GNGeocoderTests/Pods-GNGeocoderTests.release.xcconfig"; sourceTree = "<group>"; };
 		EE021E331AA9A55C00338D45 /* GNGeocoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GNGeocoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36671FD805861B707AFFC4D2 /* libPods-GNGeocoder.a in Frameworks */,
+				046FB4E2AE18D1650904ABFD /* Pods_GNGeocoder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DA2868CF954051C66C93DA7 /* libPods-GNGeocoderTests.a in Frameworks */,
+				A01AB42F11856AE9EAB9EFB3 /* Pods_GNGeocoderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +88,8 @@
 		19D9E59109823B09611DDDE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA5742655FD4F93D9B6AF2F5 /* libPods-GNGeocoder.a */,
-				23364841048060B9D7582EE4 /* libPods-GNGeocoderTests.a */,
+				A661816658209C5B6DA13265 /* Pods_GNGeocoder.framework */,
+				5E2C51A74FA01BF4CEC27925 /* Pods_GNGeocoderTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,6 +204,7 @@
 				EE021E301AA9A55C00338D45 /* Frameworks */,
 				EE021E311AA9A55C00338D45 /* Resources */,
 				9723F6710146E0378C80415E /* Copy Pods Resources */,
+				B5B305C1092F560DDB52845E /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +224,7 @@
 				EE021E491AA9A55D00338D45 /* Frameworks */,
 				EE021E4A1AA9A55D00338D45 /* Resources */,
 				B5618B5FCE30C5DCA5B747B2 /* Copy Pods Resources */,
+				8C9B95DDACFB9961F29E5B2E /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,6 +324,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		8C9B95DDACFB9961F29E5B2E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GNGeocoderTests/Pods-GNGeocoderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9723F6710146E0378C80415E /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,6 +367,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GNGeocoderTests/Pods-GNGeocoderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B305C1092F560DDB52845E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GNGeocoder/Pods-GNGeocoder-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

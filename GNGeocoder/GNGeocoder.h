@@ -27,13 +27,10 @@ typedef NS_ENUM(NSUInteger, GNGeocoderStatus) {
 
 +(GNGeocoder *)sharedInstance;
 
--(NSOperation *)geocodeName:(NSString *)name success:(void(^)(NSArray *locations))success failure:(void(^)(NSError *error))failure;
--(NSOperation *)geocodeName:(NSString *)name attributes:(GNGeocoderAttributes *)attributes success:(void(^)(NSArray *locations))success failure:(void(^)(NSError *error))failure;
+-(void)geocodeName:(NSString *)name success:(void(^)(NSArray *locations))success failure:(void(^)(NSError *error))failure;
+-(void)geocodeName:(NSString *)name attributes:(GNGeocoderAttributes *)attributes success:(void(^)(NSArray *locations))success failure:(void(^)(NSError *error))failure;
 
--(NSOperation *)reverseGeocodeLocation:(CLLocation *)location success:(void(^)(NSArray *locations))success failure:(void(^)(NSError *error))failure;
--(NSOperation *)reverseGeocodeLocation:(CLLocation *)location attributes:(GNReverseGeocoderAttributes *)attributes success:(void(^)(NSArray *locations))success failure:(void(^)(NSError *error))failure;
-
-//-(AFHTTPRequestOperation *)locationForName:(NSString *)name completionHandler:(void(^)(GNLocationInfo *location,NSError *error))completionHandler;
+-(void)reverseGeocodeLocation:(CLLocation *)location success:(void(^)(NSArray *locations))success failure:(void(^)(NSError *error))failure;
+-(void)reverseGeocodeLocation:(CLLocation *)location attributes:(GNReverseGeocoderAttributes *)attributes success:(void(^)(NSArray *locations))success failure:(void(^)(NSError *error))failure;
 
 @end
-
