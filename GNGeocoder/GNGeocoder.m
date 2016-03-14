@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Me. All rights reserved.
 //
 
-@import AFNetworking;
+#import <AFNetworking/AFNetworking.h>
 
 #import "GNGeocoder.h"
 
